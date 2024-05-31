@@ -1,0 +1,3 @@
+I splitted the code in several functions, basically as we have a "Normal" behaviour now there is a function NormalItem and one function for every special case in order to keep small pieces of code that can be easily read it and has their own purpose, this allows add more functions for each new special item without worry about affect or even touch that it is already done.
+
+Although is not completely this approaches to strategy pattern where each item type has its own behavior encapsulated in separate methods, in other hand by extracting each item type into its own method, we adhere to the single responsability principle.
